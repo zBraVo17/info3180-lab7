@@ -9,7 +9,7 @@ import os
 from app import app
 from flask import render_template, request
 from flask import render_template, request, redirect, url_for, jsonify
-from forms import UploadForm
+from .forms import UploadForm
 from werkzeug.utils import secure_filename
 
 ###
